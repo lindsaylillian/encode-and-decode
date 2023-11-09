@@ -4,7 +4,7 @@ direction=input("TYPE decode or encode\n")
 text=input("what text is it ").lower()
 shift=int(input("type the shift number"))
 
-
+#this is an encryption function
 def encrypt(plain_text,shift_amount): 
     ciphertext = ""    
     for letter in plain_text:
